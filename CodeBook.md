@@ -621,11 +621,11 @@ print("WRITING TIDY DATA FILES FOR SUBMISSION")
 
 print(" Writing full tidy data set")
 
-write.csv(data\_set, "./tidy\_full\_data.csv", row.names = FALSE)
+write.table(data\_set, "./tidy\_full\_data.txt", row.names = FALSE)
 
 print(" Writing tidy data set of avgs")
 
-write.csv(data\_set\_avgs, "./tidy\_avgs\_data.csv", row.names = FALSE)
+write.table(data\_set\_avgs, "./tidy\_avgs\_data.txt", row.names = FALSE)
 
 print("Execution of run\_analysis.R completed")
 

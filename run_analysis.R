@@ -84,8 +84,8 @@ print("   Writing full tidy data set")
 write.csv(data_set, "./tidy_full_data.csv", row.names = FALSE)
 print("   Writing tidy data set of avgs")
 write.csv(data_set_avgs, "./tidy_avgs_data.csv", row.names = FALSE)
-
-
-
+write.table(data_set,"./tidy_full_data.txt", row.names = FALSE)
+write.table(data_set_avgs,"./tidy_avgs_data.txt", row.names = FALSE)
+print("Execution of run_analysis.R completed")
 
 
