@@ -14,3 +14,5 @@ List of relevant files
 * run_analysis.R (R Script file that reads the raw data files and produces two tidy data set csv files, as required for the course submission). The script takes no parameters.
 * tidy_full_data.csv (output file created by run_analysis.R script in the “current directory”) containing the tidied data with Subject, Activity and 86 variables that contain “mean” or “std” as a part of the variable name.
 * tidy_avgs_data.csv (output file created by run_analysis.R script in the “current directory”) containing tidied data with averages for each variable for each Subject-Activity combination. Contains 88 variables, The first being Subject and Activity, followed by 86 variables that contain "mean" or "std" in their names
+
+MORE DETAILS OF ENVIRONMENT AND CODE ARE INCLUDED IN CODEBOOK.md file
